@@ -169,6 +169,10 @@ function Register() {
                         <br />
                         <br />
 
+                        <label>
+                            Donation Amount: 
+                        </label>
+                        <br/>
                         <select
                             name="salary"
                             value={donateState.salary}
@@ -178,9 +182,8 @@ function Register() {
                             <option value="$70k - $90k">$70k - $90k</option>
                         </select>
                         <br />
-                        <label>
-                            {donateState.yourSalary.map(salaries => <li>{salaries}</li>)}
-                        </label>
+                        <br/>
+                        {donateState.yourSalary.map(salaries => <li>{salaries}</li>)}
                         <br />
                         <br />
                         <br />

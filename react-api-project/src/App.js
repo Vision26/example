@@ -10,9 +10,6 @@ import Adopt from "./childs/Adopt"
 function App() {
   return (
     <div className="container">
-
-      <h1 className="app-h1">SAVE A PAW</h1>
-
       <Header />
 
       <Routes>
